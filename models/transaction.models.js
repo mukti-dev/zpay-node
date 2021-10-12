@@ -14,6 +14,10 @@ const TransactionSchema = new mongoose.Schema({
         type: String,
         trim: true
     },
+    txnId: {
+        type: String,
+        trim: true
+    },
     naration: {
         type: String,
         trim: true
