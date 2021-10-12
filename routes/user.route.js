@@ -5,7 +5,7 @@ const router = express.Router()
 
 router.post('/register', registerUser)
 router.post('/login', loginUser)
-router.post('/login/:admin', loginUser)
+router.post('/login/admin', loginUser)
 router.post('/changePassword', changePassword)
 router.get('/alluser', authentication, allUsers)
 router.get('/phone/:phone', checkUser)
