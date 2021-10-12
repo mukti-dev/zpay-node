@@ -31,7 +31,7 @@ const razorpayRechargeTransaction = async (req, res) => {
         data.phone = req.body.phone;
         data.amount = req.body.amount;
         data.cashback = req.body.cashback;
-        data.transactionid = req.query.transactionid;
+        data.transactionid = req.body.transactionid;
         data.tokenid = zpayConfig.tokenId;
         data.userid1 = zpayConfig.userId;
         data.optcode = req.body.optcode;

@@ -149,6 +149,7 @@ const razorpayRechargeTransactionManager = async (reqBody) => {
         let transactionid = reqBody.transactionid
         let optcode = reqBody.optcode
         let devSource = reqBody.devSource
+        console.log(reqBody)
 
 
         let newTransaction = {
