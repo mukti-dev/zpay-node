@@ -7,6 +7,7 @@ const { UpgradeRequiredError, InternalServerError } = require('../_errorHandler/
 const { addRechargeManager } = require('./recharge.manager')
 const { narationText } = require('../services/narationText')
 const { addNewWallet, addNewTransaction } = require('./wallet.manager')
+const { getUserById } = require('./user.manager')
 
 const rechargeTransactionManager = async (reqBody) => {
     try {
