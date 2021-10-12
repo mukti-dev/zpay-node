@@ -1,0 +1,1972 @@
+[
+    {
+        "operatorName": "Tata Power-Delhi",
+        "operatorType": "Electricity",
+        "operatorCode": "ETPD"
+    },
+    {
+        "operatorName": "Reliance\nEnergy-MUMBAI",
+        "operatorType": "Electricity",
+        "operatorCode": "ERE"
+    },
+    {
+        "operatorName": "North Bihar Electricity",
+        "operatorType": "Electricity",
+        "operatorCode": "ENB"
+    },
+    {
+        "operatorName": "South Bihar Electricity",
+        "operatorType": "Electricity",
+        "operatorCode": "ESB"
+    },
+    {
+        "operatorName": "BEST Electricity",
+        "operatorType": "Electricity",
+        "operatorCode": "EBT"
+    },
+    {
+        "operatorName": "Ajmer Vidyut Vit Nigam - RAJASTHAN",
+        "operatorType": "rEanlectricity",
+        "operatorCode": "EAV"
+    },
+    {
+        "operatorName": "BESCOM - BENGALURU",
+        "operatorType": "Electricity",
+        "operatorCode": "EBB"
+    },
+    {
+        "operatorName": "CESC - WEST BENGAL",
+        "operatorType": "Electricity",
+        "operatorCode": "ECW"
+    },
+    {
+        "operatorName": "CSEB - CHHATTISGARH",
+        "operatorType": "Electricity",
+        "operatorCode": "ECC"
+    },
+    {
+        "operatorName": "Jaipur Vidyut Vitran Nigam - RAJASTHAN",
+        "operatorType": "Electricity",
+        "operatorCode": "EJV"
+    },
+    {
+        "operatorName": "Jodhpur Vidyut Vitran Nigam - RAJASTHAN",
+        "operatorType": "Electricity",
+        "operatorCode": "EJO"
+    },
+    {
+        "operatorName": "Madhya Kshetra Vitaran - MADHYA PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "EMK"
+    },
+    {
+        "operatorName": "MSEDC - MAHARASHTRA",
+        "operatorType": "Electricity",
+        "operatorCode": "EMM"
+    },
+    {
+        "operatorName": "Noida Power - NOIDA",
+        "operatorType": "Electricity",
+        "operatorCode": "ENP"
+    },
+    {
+        "operatorName": "Paschim Kshetra Vitaran - MADHYA PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "EPK"
+    },
+    {
+        "operatorName": "Southern Power - ANDHRA PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "ESP"
+    },
+    {
+        "operatorName": "Southern Power TELANGANA",
+        "operatorType": "E- lectricity",
+        "operatorCode": "ESPT"
+    },
+    {
+        "operatorName": "Torrent Power",
+        "operatorType": "Electricity",
+        "operatorCode": "ETP"
+    },
+    {
+        "operatorName": "APDCL(Non-RAPD R)-ASSAM",
+        "operatorType": "Electricity",
+        "operatorCode": "AAE"
+    },
+    {
+        "operatorName": "APEPDCL - ANDHRA PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "AEE"
+    },
+    {
+        "operatorName": "APSPDCL - ANDHRA PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "ASE"
+    },
+    {
+        "operatorName": "BESL - BHARATPUR",
+        "operatorType": "Electricity",
+        "operatorCode": "BPE"
+    },
+    {
+        "operatorName": "BKESL - BIKANER",
+        "operatorType": "Electricity",
+        "operatorCode": "BKE"
+    },
+    {
+        "operatorName": "CSPDCL - CHHATTISGARH",
+        "operatorType": "Electricity",
+        "operatorCode": "CCE"
+    },
+    {
+        "operatorName": "Daman and Diu Electricity",
+        "operatorType": "Electricity",
+        "operatorCode": "DDE"
+    },
+    {
+        "operatorName": "DGVCL - GUJARAT",
+        "operatorType": "Electricity",
+        "operatorCode": "DGE"
+    },
+    {
+        "operatorName": "India Power - WEST BENGAL",
+        "operatorType": "Electricity",
+        "operatorCode": "IPE"
+    },
+    {
+        "operatorName": "JUSCO - JAMSHEDPUR",
+        "operatorType": "Electricity",
+        "operatorCode": "JUE"
+    },
+    {
+        "operatorName": "KEDL - KOTA",
+        "operatorType": "Electricity",
+        "operatorCode": "KRE"
+    },
+    {
+        "operatorName": "MEPDCL - MEGHALAYA",
+        "operatorType": "Electricity",
+        "operatorCode": "MEE"
+    },
+    {
+        "operatorName": "MGVCL - GUJARAT",
+        "operatorType": "Electricity",
+        "operatorCode": "MGE"
+    },
+    {
+        "operatorName": "Muzaffarpur Vidyut Vitran",
+        "operatorType": "Electricity",
+        "operatorCode": "MBE"
+    },
+    {
+        "operatorName": "NESCO - ODISHA",
+        "operatorType": "Electricity",
+        "operatorCode": "NOE"
+    },
+    {
+        "operatorName": "PGVCL - GUJARAT",
+        "operatorType": "Electricity",
+        "operatorCode": "PGE"
+    },
+    {
+        "operatorName": "SNDL Power - NAGPUR",
+        "operatorType": "Electricity",
+        "operatorCode": "SNE"
+    },
+    {
+        "operatorName": "SOUTHCO - ODISHA",
+        "operatorType": "Electricity",
+        "operatorCode": "SOE"
+    },
+    {
+        "operatorName": "Tata Power - MUMBAI",
+        "operatorType": "Electricity",
+        "operatorCode": "TME"
+    },
+    {
+        "operatorName": "TPADL - AJMER",
+        "operatorType": "Electricity",
+        "operatorCode": "AJE"
+    },
+    {
+        "operatorName": "TSECL - TRIPURA",
+        "operatorType": "Electricity",
+        "operatorCode": "TTE"
+    },
+    {
+        "operatorName": "UGVCL - GUJARAT",
+        "operatorType": "Electricity",
+        "operatorCode": "UGE"
+    },
+    {
+        "operatorName": "UPCL - UTTARAKHAND",
+        "operatorType": "Electricity",
+        "operatorCode": "UKE"
+    },
+    {
+        "operatorName": "UPPCL(RURAL)-UT TAR PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "UPE"
+    },
+    {
+        "operatorName": "UHBVN-HARYANA",
+        "operatorType": "Electricity",
+        "operatorCode": "EUH"
+    },
+    {
+        "operatorName": "MP Poorv Kshetra Vidyut Vitaran - Jabalpur(Rural)",
+        "operatorType": "Electricity",
+        "operatorCode": "PKVV"
+    },
+    {
+        "operatorName": "TNEB-Tamil Nadu",
+        "operatorType": "Electricity",
+        "operatorCode": "TNEB"
+    },
+    {
+        "operatorName": "APDCL(RAPDR)-A SSAM",
+        "operatorType": "Electricity",
+        "operatorCode": "EAA"
+    },
+    {
+        "operatorName": "CESCOM-KARNAT AKA",
+        "operatorType": "Electricity",
+        "operatorCode": "ECK"
+    },
+    {
+        "operatorName": "DHBVN-HARYANA",
+        "operatorType": "Electricity",
+        "operatorCode": "EDH"
+    },
+    {
+        "operatorName": "DNHPDCL-DADRA\nand NAGAR HAVELI",
+        "operatorType": "Electricity",
+        "operatorCode": "EDN"
+    },
+    {
+        "operatorName": "GESCOM-KARNAT AKA",
+        "operatorType": "Electricity",
+        "operatorCode": "EGK"
+    },
+    {
+        "operatorName": "HESCOM-KARNAT AKA",
+        "operatorType": "Electricity",
+        "operatorCode": "EHK"
+    },
+    {
+        "operatorName": "Himachal Pradesh State",
+        "operatorType": "Electricity",
+        "operatorCode": "EHP"
+    },
+    {
+        "operatorName": "India Power-BIHAR",
+        "operatorType": "Electricity",
+        "operatorCode": "EIB"
+    },
+    {
+        "operatorName": "JBVNL-JHARKHAN D",
+        "operatorType": "Electricity",
+        "operatorCode": "EJB"
+    },
+    {
+        "operatorName": "MP Madhya Kshetra Vidyut Vitran-Bhopal (Urban)",
+        "operatorType": "Electricity",
+        "operatorCode": "EMMU"
+    },
+    {
+        "operatorName": "PSPCL-PUNJAB",
+        "operatorType": "Electricity",
+        "operatorCode": "EPP"
+    },
+    {
+        "operatorName": "UPPCL(URBAN)-U TTAR PRADESH",
+        "operatorType": "Electricity",
+        "operatorCode": "EUP"
+    },
+    {
+        "operatorName": "WBSEDCL-WEST BENGAL",
+        "operatorType": "Electricity",
+        "operatorCode": "EWW"
+    },
+    {
+        "operatorName": "WESCO-ODISHA",
+        "operatorType": "Electricity",
+        "operatorCode": "EWO"
+    },
+    {
+        "operatorName": "Rajasthan Vidyut Vitran Nigam Limited",
+        "operatorType": "Electricity",
+        "operatorCode": "ERVVNL"
+    },
+    {
+        "operatorName": "MP Poorv Kshetra Vidyut Vitaran - Jabalpur(Urban)",
+        "operatorType": "Electricity",
+        "operatorCode": "MPKVVU"
+    },
+    {
+        "operatorName": "MP Madhya Kshetra Vidyut\nVitran-Bhopal(Rural)",
+        "operatorType": "Electricity",
+        "operatorCode": "EMMR"
+    },
+    {
+        "operatorName": "Kerala State Electricity Board Ltd. (KSEB)",
+        "operatorType": "Electricity",
+        "operatorCode": "KSEB"
+    },
+    {
+        "operatorName": "Telangana State Southern Power Distribution",
+        "operatorType": "Electricity",
+        "operatorCode": "TSSPDCL"
+    },
+    {
+        "operatorName": "Co-Operative Electric Supply Society Ltd,Sircilla",
+        "operatorType": "Electricity",
+        "operatorCode": "CESS"
+    },
+    {
+        "operatorName": "TSNPDCL,\nTelangana",
+        "operatorType": "Electricity",
+        "operatorCode": "TSNPDCL"
+    },
+    {
+        "operatorName": "Tsspdcl- Prepaid Meter Recharge",
+        "operatorType": "Electricity",
+        "operatorCode": "TSSPDCLMTR"
+    },
+    {
+        "operatorName": "Torrent Power - Ahmedabad",
+        "operatorType": "Electricity",
+        "operatorCode": "ETPA"
+    },
+    {
+        "operatorName": "Torrent Power - Bhiwandi",
+        "operatorType": "Electricity",
+        "operatorCode": "ETPB"
+    },
+    {
+        "operatorName": "Torrent Power - Surat",
+        "operatorType": "Electricity",
+        "operatorCode": "ETPS"
+    },
+    {
+        "operatorName": "MESCOM - RAPDR",
+        "operatorType": "Electricity",
+        "operatorCode": "EMESCOM"
+    },
+    {
+        "operatorName": "MP Poorva Kshetra Vidyut Vitaran Co. Ltd Jabalpur - NGB billing system",
+        "operatorType": "Electricity",
+        "operatorCode": "EMPKVVCLJNGB"
+    },
+    {
+        "operatorName": "Government of Puducherry Electricity Department",
+        "operatorType": "Electricity",
+        "operatorCode": "EGOPED"
+    },
+    {
+        "operatorName": "Kanpur Electricity Supply Company",
+        "operatorType": "Electricity",
+        "operatorCode": "EKESC"
+    },
+    {
+        "operatorName": "Goa Electricity Department",
+        "operatorType": "Electricity",
+        "operatorCode": "EGED"
+    },
+    {
+        "operatorName": "Department of Power, Nagaland",
+        "operatorType": "Electricity",
+        "operatorCode": "EDOPN"
+    },
+    {
+        "operatorName": "CESU, Odisha",
+        "operatorType": "Electricity",
+        "operatorCode": "ECESU"
+    },
+    {
+        "operatorName": "Power & Electricity Department - Mizoram",
+        "operatorType": "Electricity",
+        "operatorCode": "EPEDM"
+    },
+    {
+        "operatorName": "Adani Electricity Mumbai Limited",
+        "operatorType": "Electricity",
+        "operatorCode": "EAEML"
+    },
+    {
+        "operatorName": "Sikkim Power - URBAN",
+        "operatorType": "Electricity",
+        "operatorCode": "ESPU"
+    },
+    {
+        "operatorName": "Sikkim Power - RURAL",
+        "operatorType": "Electricity",
+        "operatorCode": "ESPR"
+    },
+    {
+        "operatorName": "CHANDIGARH",
+        "operatorType": "Electricity",
+        "operatorCode": "CHD"
+    },
+    {
+        "operatorName": "AirtelMoney",
+        "operatorType": "Electricity",
+        "operatorCode": "ATMN"
+    },
+    {
+        "operatorName": "Arunachal",
+        "operatorType": "Electricity",
+        "operatorCode": "AR"
+    },
+    {
+        "operatorName": "Jammu and Kashmir Power Development Department",
+        "operatorType": "Electricity",
+        "operatorCode": "JK"
+    },
+    {
+        "operatorName": "MP Madhya Kshetra Flat Rate Agriculture Bill",
+        "operatorType": "Electricity",
+        "operatorCode": "MPKAG"
+    },
+    {
+        "operatorName": "Torrent Power Ltd. (SHIL BUMBRA & KALWA)",
+        "operatorType": "Electricity",
+        "operatorCode": "TPK"
+    },
+    {
+        "operatorName": "Manipur State Power (MSPDCL)",
+        "operatorType": "Electricity",
+        "operatorCode": "MANI"
+    },
+    {
+        "operatorName": "BSES Rajdhani � Delhi PREPAID",
+        "operatorType": "Electricity",
+        "operatorCode": "DPRE"
+    },
+    {
+        "operatorName": "BSES Yamuna � Delhi PREPAID",
+        "operatorType": "Electricity",
+        "operatorCode": "DYPRE"
+    },
+    {
+        "operatorName": "Uttar Pradesh Power Corp. Ltd. (UPPCL PREPAID)",
+        "operatorType": "Electricity",
+        "operatorCode": "UPPPCL"
+    },
+    {
+        "operatorName": "India Power Corporation Ltd. (Asansol)",
+        "operatorType": "Electricity",
+        "operatorCode": "IPCA"
+    },
+    {
+        "operatorName": "Axis Bank FASTag",
+        "operatorType": "Fastag",
+        "operatorCode": "FABFAST"
+    },
+    {
+        "operatorName": "Indian Highways Management Company Ltd FASTag",
+        "operatorType": "Fastag",
+        "operatorCode": "FIHMC"
+    },
+    {
+        "operatorName": "IndusInd Bank FASTag",
+        "operatorType": "Fastag",
+        "operatorCode": "FIBFAST"
+    },
+    {
+        "operatorName": "Bank of Baroda - Fastag",
+        "operatorType": "Fastag",
+        "operatorCode": "FBOBFAST"
+    },
+    {
+        "operatorName": "ICICI Bank Fastag",
+        "operatorType": "Fastag",
+        "operatorCode": "FICICIFAST"
+    },
+    {
+        "operatorName": "HDFC  Bank FASTTag",
+        "operatorType": "Fastag",
+        "operatorCode": "HDFCFAST"
+    },
+    {
+        "operatorName": "IDFC FIRST Bank\nFasTag",
+        "operatorType": "Fastag",
+        "operatorCode": "IDFCFAST"
+    },
+    {
+        "operatorName": "Equitas FASTag Recharge",
+        "operatorType": "Fastag",
+        "operatorCode": "EQUIFAST"
+    },
+    {
+        "operatorName": "Kotak Mahindra Bank Fastag",
+        "operatorType": "Fastag",
+        "operatorCode": "KOTAKFAST"
+    },
+    {
+        "operatorName": "Mahanagar Gas",
+        "operatorType": "Gas",
+        "operatorCode": "GMN"
+    },
+    {
+        "operatorName": "Adani\nGas-GUJARAT",
+        "operatorType": "Gas",
+        "operatorCode": "GA"
+    },
+    {
+        "operatorName": "Gujarat Gas",
+        "operatorType": "Gas",
+        "operatorCode": "GG"
+    },
+    {
+        "operatorName": "Indraprastha Gas",
+        "operatorType": "Gas",
+        "operatorCode": "GI"
+    },
+    {
+        "operatorName": "Haryana City Gas",
+        "operatorType": "Gas",
+        "operatorCode": "HCG"
+    },
+    {
+        "operatorName": "Sabarmati Gas",
+        "operatorType": "Gas",
+        "operatorCode": "SGG"
+    },
+    {
+        "operatorName": "Siti Energy - Uttar Pradesh",
+        "operatorType": "Gas",
+        "operatorCode": "SUG"
+    },
+    {
+        "operatorName": "Tripura Natural Gas",
+        "operatorType": "Gas",
+        "operatorCode": "TNG"
+    },
+    {
+        "operatorName": "Adani\nGas-HARYANA",
+        "operatorType": "Gas",
+        "operatorCode": "GAH"
+    },
+    {
+        "operatorName": "Maharashtra Natural Gas",
+        "operatorType": "Gas",
+        "operatorCode": "GMNM"
+    },
+    {
+        "operatorName": "Unique Central Piped Gases",
+        "operatorType": "Gas",
+        "operatorCode": "GUC"
+    },
+    {
+        "operatorName": "Vadodara Gas",
+        "operatorType": "Gas",
+        "operatorCode": "GVG"
+    },
+    {
+        "operatorName": "Assam Gas Company Limited",
+        "operatorType": "Gas",
+        "operatorCode": "GAGCL"
+    },
+    {
+        "operatorName": "Bhagyanagar Gas Limited",
+        "operatorType": "Gas",
+        "operatorCode": "GBGL"
+    },
+    {
+        "operatorName": "Green Gas Limited(GGL)",
+        "operatorType": "Gas",
+        "operatorCode": "GGGL"
+    },
+    {
+        "operatorName": "IRM Energy Private Limited",
+        "operatorType": "Gas",
+        "operatorCode": "GIEPL"
+    },
+    {
+        "operatorName": "Aavantika Gas Ltd",
+        "operatorType": "Gas",
+        "operatorCode": "GAGL"
+    },
+    {
+        "operatorName": "Central U.P. Gas Limited",
+        "operatorType": "Gas",
+        "operatorCode": "GCUPGL"
+    },
+    {
+        "operatorName": "Charotar Gas Sahakari Mandali Ltd",
+        "operatorType": "Gas",
+        "operatorCode": "GCGSML"
+    },
+    {
+        "operatorName": "Sanwariya Gas Limited",
+        "operatorType": "Gas",
+        "operatorCode": "GSGL"
+    },
+    {
+        "operatorName": "GAIL Gas Limited",
+        "operatorType": "Gas",
+        "operatorCode": "GAIL"
+    },
+    {
+        "operatorName": "Adani Gas Limited",
+        "operatorType": "Gas",
+        "operatorCode": "AGL"
+    },
+    {
+        "operatorName": "Indian Oil-Adani Gas Private Limited",
+        "operatorType": "Gas",
+        "operatorCode": "IOAG"
+    },
+    {
+        "operatorName": "Megha Gas",
+        "operatorType": "Gas",
+        "operatorCode": "MG"
+    },
+    {
+        "operatorName": "Naveriya Gas Pvt Ltd",
+        "operatorType": "Gas",
+        "operatorCode": "NG"
+    },
+    {
+        "operatorName": "Torrent Gas Moradabad Limited",
+        "operatorType": "Gas",
+        "operatorCode": "TGM"
+    },
+    {
+        "operatorName": "ICICI Prudential Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "ICICI"
+    },
+    {
+        "operatorName": "Tata AIA Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "TALI"
+    },
+    {
+        "operatorName": "Tata AIG General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "TAGI"
+    },
+    {
+        "operatorName": "Bharti Axa Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "BALI"
+    },
+    {
+        "operatorName": "INDIA FIRST Life\nInsurance",
+        "operatorType": "Insurance",
+        "operatorCode": "IFLI"
+    },
+    {
+        "operatorName": "Aditya Birla Sun Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "ABSI"
+    },
+    {
+        "operatorName": "Aegon Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "ALI"
+    },
+    {
+        "operatorName": "Aviva Life",
+        "operatorType": "Insurance",
+        "operatorCode": "AL"
+    },
+    {
+        "operatorName": "Bajaj Allianz General Insurance Company",
+        "operatorType": "Insurance",
+        "operatorCode": "BAGI"
+    },
+    {
+        "operatorName": "Bharti AXA Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "EBAL"
+    },
+    {
+        "operatorName": "Canara HSBC OBC Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "CHOL"
+    },
+    {
+        "operatorName": "Edelweiss Tokio Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "ETL"
+    },
+    {
+        "operatorName": "Exide Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "EL"
+    },
+    {
+        "operatorName": "Future Generali India General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "FGI"
+    },
+    {
+        "operatorName": "Future Generali India Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "FGIL"
+    },
+    {
+        "operatorName": "HDFC Ergo General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "HEG"
+    },
+    {
+        "operatorName": "HDFC Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "HLI"
+    },
+    {
+        "operatorName": "LIC of India",
+        "operatorType": "Insurance",
+        "operatorCode": "LIC"
+    },
+    {
+        "operatorName": "MAX Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "MAL"
+    },
+    {
+        "operatorName": "PNB MetLife Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "PNBMI"
+    },
+    {
+        "operatorName": "Reliance Nippon Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "RNL"
+    },
+    {
+        "operatorName": "Reliance General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "RGI"
+    },
+    {
+        "operatorName": "Religare Health Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "RHI"
+    },
+    {
+        "operatorName": "Royal Sundaram General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "RSGI"
+    },
+    {
+        "operatorName": "SBI General Insurance Limited",
+        "operatorType": "Insurance",
+        "operatorCode": "SBIG"
+    },
+    {
+        "operatorName": "SBI Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "SBIL"
+    },
+    {
+        "operatorName": "Shriram General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "SHRIG"
+    },
+    {
+        "operatorName": "Shriram Life Insurance Co Ltd",
+        "operatorType": "Insurance",
+        "operatorCode": "SLI"
+    },
+    {
+        "operatorName": "Star Union Dai- Ichi Life Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "SUDL"
+    },
+    {
+        "operatorName": "TATA AIA Life\nInsurance",
+        "operatorType": "Insurance",
+        "operatorCode": "TAL"
+    },
+    {
+        "operatorName": "The Oriental Insurance Company",
+        "operatorType": "Insurance",
+        "operatorCode": "TOI"
+    },
+    {
+        "operatorName": "Universal Sompo General Insurance",
+        "operatorType": "Insurance",
+        "operatorCode": "USG"
+    },
+    {
+        "operatorName": "BSNL Landline",
+        "operatorType": "Landline",
+        "operatorCode": "LBS"
+    },
+    {
+        "operatorName": "MTNL Delhi Landline",
+        "operatorType": "Landline",
+        "operatorCode": "LMT"
+    },
+    {
+        "operatorName": "Airtel Landline",
+        "operatorType": "Landline",
+        "operatorCode": "LA"
+    },
+    {
+        "operatorName": "Tata Docomo LANDLINE",
+        "operatorType": "Landline",
+        "operatorCode": "LT"
+    },
+    {
+        "operatorName": "MTNL - Mumbai",
+        "operatorType": "Landline",
+        "operatorCode": "MML"
+    },
+    {
+        "operatorName": "ACT Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "ACRT"
+    },
+    {
+        "operatorName": "ANI Network",
+        "operatorType": "Landline",
+        "operatorCode": "ANU"
+    },
+    {
+        "operatorName": "Alliance Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "ALB"
+    },
+    {
+        "operatorName": "Asianet Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "ASSB"
+    },
+    {
+        "operatorName": "Comway Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "COMB"
+    },
+    {
+        "operatorName": "Connect",
+        "operatorType": "Landline",
+        "operatorCode": "CONE"
+    },
+    {
+        "operatorName": "D VoiS Communications Private Ltd",
+        "operatorType": "Landline",
+        "operatorCode": "DVC"
+    },
+    {
+        "operatorName": "Den Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "DEBB"
+    },
+    {
+        "operatorName": "Dreamtel Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "DRB"
+    },
+    {
+        "operatorName": "Excell Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "EXB"
+    },
+    {
+        "operatorName": "Foxtel Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "FRE"
+    },
+    {
+        "operatorName": "Fusionnet",
+        "operatorType": "Landline",
+        "operatorCode": "FEL"
+    },
+    {
+        "operatorName": "GBPS Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "GTT"
+    },
+    {
+        "operatorName": "Gigantic Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "GTE"
+    },
+    {
+        "operatorName": "GTPL Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "GRE"
+    },
+    {
+        "operatorName": "Hathway Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "HTR"
+    },
+    {
+        "operatorName": "INSTALINKS",
+        "operatorType": "Landline",
+        "operatorCode": "ITR"
+    },
+    {
+        "operatorName": "Instanet Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "IYT"
+    },
+    {
+        "operatorName": "MTNL Mumbai",
+        "operatorType": "Landline",
+        "operatorCode": "THR"
+    },
+    {
+        "operatorName": "Mach1 Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "MTR"
+    },
+    {
+        "operatorName": "Microscan",
+        "operatorType": "Landline",
+        "operatorCode": "MIR"
+    },
+    {
+        "operatorName": "Mnet Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "MHR"
+    },
+    {
+        "operatorName": "Netplus Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "NTR"
+    },
+    {
+        "operatorName": "Nextra Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "NXT"
+    },
+    {
+        "operatorName": "ONE Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "OTR"
+    },
+    {
+        "operatorName": "Praction Network",
+        "operatorType": "Landline",
+        "operatorCode": "PYR"
+    },
+    {
+        "operatorName": "SPECTRA",
+        "operatorType": "Landline",
+        "operatorCode": "SPC"
+    },
+    {
+        "operatorName": "Sikka Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "STR"
+    },
+    {
+        "operatorName": "Siti Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "STU"
+    },
+    {
+        "operatorName": "TTN Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "TRE"
+    },
+    {
+        "operatorName": "Tata Tele Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "TYT"
+    },
+    {
+        "operatorName": "Tikona Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "THU"
+    },
+    {
+        "operatorName": "Timbl Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "TUH"
+    },
+    {
+        "operatorName": "UCN Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "UYG"
+    },
+    {
+        "operatorName": "Vfibernet Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "VTW"
+    },
+    {
+        "operatorName": "Wibro Broadband",
+        "operatorType": "Landline",
+        "operatorCode": "UYH"
+    },
+    {
+        "operatorName": "YOU broadband",
+        "operatorType": "Landline",
+        "operatorCode": "YUT"
+    },
+    {
+        "operatorName": "Altum Credo Home Finance",
+        "operatorType": "Landline",
+        "operatorCode": "ATRE"
+    },
+    {
+        "operatorName": "AEON Credit",
+        "operatorType": "Loan",
+        "operatorCode": "AEOCR"
+    },
+    {
+        "operatorName": "Aavas Financiers",
+        "operatorType": "Loan",
+        "operatorCode": "AAVCR"
+    },
+    {
+        "operatorName": "Achiievers Gold Loan",
+        "operatorType": "Loan",
+        "operatorCode": "ACGLCR"
+    },
+    {
+        "operatorName": "Aditya Birla Capital",
+        "operatorType": "Loan",
+        "operatorCode": "ADBCCR"
+    },
+    {
+        "operatorName": "Aspire Home Finance Corporation Limited",
+        "operatorType": "Loan",
+        "operatorCode": "ASHFCLCR"
+    },
+    {
+        "operatorName": "Bajaj Auto Finance",
+        "operatorType": "Loan",
+        "operatorCode": "BAAFHC"
+    },
+    {
+        "operatorName": "BajajFinserv",
+        "operatorType": "Loan",
+        "operatorCode": "BAJFHC"
+    },
+    {
+        "operatorName": "Bussan Auto Finance",
+        "operatorType": "Loan",
+        "operatorCode": "BUSAFHC"
+    },
+    {
+        "operatorName": "Capital First Limited",
+        "operatorType": "Loan",
+        "operatorCode": "CAFLHC"
+    },
+    {
+        "operatorName": "Capital Float",
+        "operatorType": "Loan",
+        "operatorCode": "CAPFHC"
+    },
+    {
+        "operatorName": "Dewan Housing Finance Corporation Limited",
+        "operatorType": "Loan",
+        "operatorCode": "DHFCLHC"
+    },
+    {
+        "operatorName": "ESS KAY FINCORP",
+        "operatorType": "Loan",
+        "operatorCode": "EKFHC"
+    },
+    {
+        "operatorName": "Fintree Finance",
+        "operatorType": "Loan",
+        "operatorCode": "FIFHC"
+    },
+    {
+        "operatorName": "FlexSalary",
+        "operatorType": "Loan",
+        "operatorCode": "FLSHC"
+    },
+    {
+        "operatorName": "Fullerton India",
+        "operatorType": "Loan",
+        "operatorCode": "FUIHC"
+    },
+    {
+        "operatorName": "HDB Financial Services",
+        "operatorType": "Loan",
+        "operatorCode": "HFSHC"
+    },
+    {
+        "operatorName": "HDFC Home Loan",
+        "operatorType": "Loan",
+        "operatorCode": "HDFCHLHC"
+    },
+    {
+        "operatorName": "Hero FinCorp",
+        "operatorType": "Loan",
+        "operatorCode": "HEROFHC"
+    },
+    {
+        "operatorName": "Home Credit",
+        "operatorType": "Loan",
+        "operatorCode": "HOMECHC"
+    },
+    {
+        "operatorName": "INDIABULLS HOUSING FINANCE",
+        "operatorType": "Loan",
+        "operatorCode": "HINHFHC"
+    },
+    {
+        "operatorName": "Indiabulls Consumer Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "INCFLHC"
+    },
+    {
+        "operatorName": "Kissht",
+        "operatorType": "Loan",
+        "operatorCode": "KISSHTHC"
+    },
+    {
+        "operatorName": "Kosamattam Finance",
+        "operatorType": "Loan",
+        "operatorCode": "KOFHC"
+    },
+    {
+        "operatorName": "LenDenClub",
+        "operatorType": "Loan",
+        "operatorCode": "LECHC"
+    },
+    {
+        "operatorName": "LoanTAP",
+        "operatorType": "Loan",
+        "operatorCode": "LOTAPHC"
+    },
+    {
+        "operatorName": "MAS Financial Services Limited",
+        "operatorType": "Loan",
+        "operatorCode": "MASFSLHC"
+    },
+    {
+        "operatorName": "MAS Rural Housing & Mortgage Finance Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "MASRHMFLHC"
+    },
+    {
+        "operatorName": "Magma Fincorp Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "MAGFLHC"
+    },
+    {
+        "operatorName": "Manappuram",
+        "operatorType": "Loan",
+        "operatorCode": "MANAPHC"
+    },
+    {
+        "operatorName": "Muthoot Fincorp Ltd.",
+        "operatorType": "Loan",
+        "operatorCode": "MUTHFLHC"
+    },
+    {
+        "operatorName": "Neev Finance",
+        "operatorType": "Loan",
+        "operatorCode": "NEEVFHC"
+    },
+    {
+        "operatorName": "PaisaDukan",
+        "operatorType": "Loan",
+        "operatorCode": "PAISADHC"
+    },
+    {
+        "operatorName": "RBL Bank Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "RBLBLHC"
+    },
+    {
+        "operatorName": "Shriram Housing Finance",
+        "operatorType": "Loan",
+        "operatorCode": "SHRIHFHC"
+    },
+    {
+        "operatorName": "Shriram Transport Finance",
+        "operatorType": "Loan",
+        "operatorCode": "SHRITFHC"
+    },
+    {
+        "operatorName": "Small Business Fincredit India",
+        "operatorType": "Loan",
+        "operatorCode": "SMALLBFIHC"
+    },
+    {
+        "operatorName": "Toyota Financial Services",
+        "operatorType": "Loan",
+        "operatorCode": "TOYFSHC"
+    },
+    {
+        "operatorName": "Tribe3",
+        "operatorType": "Loan",
+        "operatorCode": "TRIBEHC"
+    },
+    {
+        "operatorName": "Ujjivan Small Finance Bank",
+        "operatorType": "Loan",
+        "operatorCode": "UJJSFBHC"
+    },
+    {
+        "operatorName": "Volkswagen Finance",
+        "operatorType": "Loan",
+        "operatorCode": "VOLKSFHC"
+    },
+    {
+        "operatorName": "WheelsEMI",
+        "operatorType": "Loan",
+        "operatorCode": "WHEELEMIHC"
+    },
+    {
+        "operatorName": "Aditya Birla Housing Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "ADBHFLHC"
+    },
+    {
+        "operatorName": "Tata Capital Financial Services Limited",
+        "operatorType": "Loan",
+        "operatorCode": "LTCFSL"
+    },
+    {
+        "operatorName": "L and T Financial Services",
+        "operatorType": "Loan",
+        "operatorCode": "LLNTFS"
+    },
+    {
+        "operatorName": "L and T Housing Finance",
+        "operatorType": "Loan",
+        "operatorCode": "LANTHF"
+    },
+    {
+        "operatorName": "Shriram City  Union Finance Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "LSCUF"
+    },
+    {
+        "operatorName": "Loksuvidha",
+        "operatorType": "Loan",
+        "operatorCode": "LLOKS"
+    },
+    {
+        "operatorName": "Varthana",
+        "operatorType": "Loan",
+        "operatorCode": "LVARTHANA"
+    },
+    {
+        "operatorName": "Clix",
+        "operatorType": "Loan",
+        "operatorCode": "LCLIX"
+    },
+    {
+        "operatorName": "Avail",
+        "operatorType": "Loan",
+        "operatorCode": "LAVAIL"
+    },
+    {
+        "operatorName": "AU Small Finance Bank Limited",
+        "operatorType": "Loan",
+        "operatorCode": "AUSF"
+    },
+    {
+        "operatorName": "Aadhar Housing Finance Ltd.",
+        "operatorType": "Loan",
+        "operatorCode": "ARE"
+    },
+    {
+        "operatorName": "Adani Capital Private Limited",
+        "operatorType": "Loan",
+        "operatorCode": "ATYD"
+    },
+    {
+        "operatorName": "Annapurna Finance Private Ltd.-MFI",
+        "operatorType": "Loan",
+        "operatorCode": "AMBR"
+    },
+    {
+        "operatorName": "Annapurna Finance Private Ltd.-",
+        "operatorType": "Loan",
+        "operatorCode": "NTRD"
+    },
+    {
+        "operatorName": "Arohan Financial Services Limited",
+        "operatorType": "Loan",
+        "operatorCode": "ATHR"
+    },
+    {
+        "operatorName": "Ascend Capital",
+        "operatorType": "Loan",
+        "operatorCode": "ASWE"
+    },
+    {
+        "operatorName": "Avail",
+        "operatorType": "Loan",
+        "operatorCode": "GFHT"
+    },
+    {
+        "operatorName": "Avanse Financial Services Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "YTUF"
+    },
+    {
+        "operatorName": "Axis Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "ARET"
+    },
+    {
+        "operatorName": "BERAR Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "BRTDF"
+    },
+    {
+        "operatorName": "Baid Leasing and Finance",
+        "operatorType": "Loan",
+        "operatorCode": "BRTE"
+    },
+    {
+        "operatorName": "Capri Global Capital Limited",
+        "operatorType": "Loan",
+        "operatorCode": "COTY"
+    },
+    {
+        "operatorName": "Capri Global Housing Finance",
+        "operatorType": "Loan",
+        "operatorCode": "YTYR"
+    },
+    {
+        "operatorName": "Cars24 Financial Services Private Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "CTEW"
+    },
+    {
+        "operatorName": "Chaitanya India Fin Credit Pvt Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "YTHR"
+    },
+    {
+        "operatorName": "Cholamandalam",
+        "operatorType": "Loan",
+        "operatorCode": "CHJR"
+    },
+    {
+        "operatorName": "Credit Fair",
+        "operatorType": "Loan",
+        "operatorCode": "CGEW"
+    },
+    {
+        "operatorName": "Credit Wise Capital",
+        "operatorType": "Loan",
+        "operatorCode": "CUJG"
+    },
+    {
+        "operatorName": "Credy",
+        "operatorType": "Loan",
+        "operatorCode": "CSDF"
+    },
+    {
+        "operatorName": "DCB Bank Loan Repayment",
+        "operatorType": "Loan",
+        "operatorCode": "CVDN"
+    },
+    {
+        "operatorName": "DMI Finance",
+        "operatorType": "Loan",
+        "operatorCode": "FGDD"
+    },
+    {
+        "operatorName": "DMI Housing Finance",
+        "operatorType": "Loan",
+        "operatorCode": "BGFH"
+    },
+    {
+        "operatorName": "Digamber Capfin Limited",
+        "operatorType": "Loan",
+        "operatorCode": "GFDS"
+    },
+    {
+        "operatorName": "Digamber Capfin Limited",
+        "operatorType": "Loan",
+        "operatorCode": "EDHF"
+    },
+    {
+        "operatorName": "Easy Home Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "RTEG"
+    },
+    {
+        "operatorName": "Eduvanz Financing Pvt. Ltd.",
+        "operatorType": "Loan",
+        "operatorCode": "NFHR"
+    },
+    {
+        "operatorName": "Faircent",
+        "operatorType": "Loan",
+        "operatorCode": "JDBF"
+    },
+    {
+        "operatorName": "Fincare Small Finance Bank",
+        "operatorType": "Loan",
+        "operatorCode": "NCCH"
+    },
+    {
+        "operatorName": "FlexiLoans",
+        "operatorType": "Loan",
+        "operatorCode": "HFBG"
+    },
+    {
+        "operatorName": "G U Financial Services Pvt Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "BDHB"
+    },
+    {
+        "operatorName": "ICICI Bank Ltd - Loans",
+        "operatorType": "Loan",
+        "operatorCode": "HFNEB"
+    },
+    {
+        "operatorName": "IDFC First Bank Limited",
+        "operatorType": "Loan",
+        "operatorCode": "BKKE"
+    },
+    {
+        "operatorName": "INDUSIND BANK - CFD",
+        "operatorType": "Loan",
+        "operatorCode": "BJDHKE"
+    },
+    {
+        "operatorName": "India Home Loan Limited",
+        "operatorType": "Loan",
+        "operatorCode": "HDHLFH"
+    },
+    {
+        "operatorName": "Indiashelter Housing Finance",
+        "operatorType": "Loan",
+        "operatorCode": "HJKDKE"
+    },
+    {
+        "operatorName": "Jain Autofin",
+        "operatorType": "Loan",
+        "operatorCode": "BNKD"
+    },
+    {
+        "operatorName": "Jana Small Finance Bank",
+        "operatorType": "Loan",
+        "operatorCode": "WGHGEJF"
+    },
+    {
+        "operatorName": "Kanakadurga Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "NKVNK"
+    },
+    {
+        "operatorName": "Kinara Capital",
+        "operatorType": "Loan",
+        "operatorCode": "VFCGC"
+    },
+    {
+        "operatorName": "L&T Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "BHC"
+    },
+    {
+        "operatorName": "L&T Housing Finance",
+        "operatorType": "Loan",
+        "operatorCode": "BGCG"
+    },
+    {
+        "operatorName": "Loan Through Paytm",
+        "operatorType": "Loan",
+        "operatorCode": "CGXGH"
+    },
+    {
+        "operatorName": "Mahindra Home Finance",
+        "operatorType": "Loan",
+        "operatorCode": "XGXH"
+    },
+    {
+        "operatorName": "Manappuram Finance Ltd.-Vehicle Loan",
+        "operatorType": "Loan",
+        "operatorCode": "CHJHF"
+    },
+    {
+        "operatorName": "Manba Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "JHFJ"
+    },
+    {
+        "operatorName": "Maxvalue Credits And Investments Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "VJHFS"
+    },
+    {
+        "operatorName": "Midland Microfin Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "VJHF"
+    },
+    {
+        "operatorName": "Mintifi Finserve Private Limited",
+        "operatorType": "Loan",
+        "operatorCode": "HFJJ"
+    },
+    {
+        "operatorName": "Motilal Oswal Home Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "VJKGC"
+    },
+    {
+        "operatorName": "Muthoot Capital Service Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "HGHS"
+    },
+    {
+        "operatorName": "Muthoot Gold Bullion Corporation",
+        "operatorType": "Loan",
+        "operatorCode": "CGXG"
+    },
+    {
+        "operatorName": "Muthoot Microfin Limited",
+        "operatorType": "Loan",
+        "operatorCode": "CTHDHJ"
+    },
+    {
+        "operatorName": "NM Finance",
+        "operatorType": "Loan",
+        "operatorCode": "DTYJH"
+    },
+    {
+        "operatorName": "Nidhilakshmi Finance",
+        "operatorType": "Loan",
+        "operatorCode": "ADFGB"
+    },
+    {
+        "operatorName": "Nikon",
+        "operatorType": "Loan",
+        "operatorCode": "JDBK"
+    },
+    {
+        "operatorName": "OHMYLOAN",
+        "operatorType": "Loan",
+        "operatorCode": "GRTR"
+    },
+    {
+        "operatorName": "OMLP2P.COM",
+        "operatorType": "Loan",
+        "operatorCode": "DGTR"
+    },
+    {
+        "operatorName": "Orange Retail Finance India Pvt Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "DJJKJ"
+    },
+    {
+        "operatorName": "Oroboro",
+        "operatorType": "Loan",
+        "operatorCode": "JDDF"
+    },
+    {
+        "operatorName": "Oxyzo Financial Services Pvt Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "JIIE"
+    },
+    {
+        "operatorName": "PNB Housing Finance Ltd.",
+        "operatorType": "Loan",
+        "operatorCode": "DBRG"
+    },
+    {
+        "operatorName": "Perfect Finance",
+        "operatorType": "Loan",
+        "operatorCode": "VFBX"
+    },
+    {
+        "operatorName": "RupeeRedee",
+        "operatorType": "Loan",
+        "operatorCode": "DGGH"
+    },
+    {
+        "operatorName": "SBFC Finance Pvt Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "FFEF"
+    },
+    {
+        "operatorName": "SMEcorner",
+        "operatorType": "Loan",
+        "operatorCode": "SKIEI"
+    },
+    {
+        "operatorName": "Shriram City Union Finance Limited",
+        "operatorType": "Loan",
+        "operatorCode": "JSJJD"
+    },
+    {
+        "operatorName": "Snapmint",
+        "operatorType": "Loan",
+        "operatorCode": "KDKFJ"
+    },
+    {
+        "operatorName": "StuCred",
+        "operatorType": "Loan",
+        "operatorCode": "JWKE"
+    },
+    {
+        "operatorName": "Sub-K",
+        "operatorType": "Loan",
+        "operatorCode": "DFGV"
+    },
+    {
+        "operatorName": "Suryoday Small Finance Bank",
+        "operatorType": "Loan",
+        "operatorCode": "XFVGB"
+    },
+    {
+        "operatorName": "Svatantra Microfin Private Limited",
+        "operatorType": "Loan",
+        "operatorCode": "DDFG"
+    },
+    {
+        "operatorName": "TVS Credit Services Limited",
+        "operatorType": "Loan",
+        "operatorCode": "DFTG"
+    },
+    {
+        "operatorName": "Vastu Housing Finance Corporation Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "DJFKR"
+    },
+    {
+        "operatorName": "Wonder Home Finance Ltd",
+        "operatorType": "Loan",
+        "operatorCode": "MKDMK"
+    },
+    {
+        "operatorName": "Ziploan",
+        "operatorType": "Loan",
+        "operatorCode": "CFGH"
+    },
+    {
+        "operatorName": "2i funding",
+        "operatorType": "Loan",
+        "operatorCode": "sfgh"
+    },
+    {
+        "operatorName": "HP Gas",
+        "operatorType": "LPG Gas",
+        "operatorCode": "LHPCL"
+    },
+    {
+        "operatorName": "Bharat Gas",
+        "operatorType": "LPG Gas",
+        "operatorCode": "LBPCL"
+    },
+    {
+        "operatorName": "Indane Gas",
+        "operatorType": "LPG Gas",
+        "operatorCode": "LIGIO"
+    },
+    {
+        "operatorName": "Airtel PostPaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "PA"
+    },
+    {
+        "operatorName": "Idea PostPaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "PI"
+    },
+    {
+        "operatorName": "VI PostPaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "PV"
+    },
+    {
+        "operatorName": "Reliance PostPaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "PR"
+    },
+    {
+        "operatorName": "BSNL PostPaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "PB"
+    },
+    {
+        "operatorName": "Tata Docomo PostPaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "PT"
+    },
+    {
+        "operatorName": "JIO Postpaid",
+        "operatorType": "PostPaid",
+        "operatorCode": "JIOP"
+    },
+    {
+        "operatorName": "Airtel",
+        "operatorType": "PrePaid",
+        "operatorCode": "A"
+    },
+    {
+        "operatorName": "BSNL Topup",
+        "operatorType": "PrePaid",
+        "operatorCode": "B"
+    },
+    {
+        "operatorName": "BSNL Recharge",
+        "operatorType": "PrePaid",
+        "operatorCode": "BR"
+    },
+    {
+        "operatorName": "Idea",
+        "operatorType": "PrePaid",
+        "operatorCode": "I"
+    },
+    {
+        "operatorName": "Vodafone",
+        "operatorType": "PrePaid",
+        "operatorCode": "V"
+    },
+    {
+        "operatorName": "Mtnl TopUp",
+        "operatorType": "PrePaid",
+        "operatorCode": "MT"
+    },
+    {
+        "operatorName": "JIO",
+        "operatorType": "PrePaid",
+        "operatorCode": "JIO"
+    },
+    {
+        "operatorName": "AirtelThanks",
+        "operatorType": "PrePaid",
+        "operatorCode": "ATTS"
+    },
+    {
+        "operatorName": "Jio Pos Lite",
+        "operatorType": "PrePaid",
+        "operatorCode": "JIOPOS"
+    },
+    {
+        "operatorName": "AirtelMoney",
+        "operatorType": "PrePaid",
+        "operatorCode": "ATMNY"
+    },
+    {
+        "operatorName": "Uttarakhand Jal Sansthan",
+        "operatorType": "Water",
+        "operatorCode": "UJSW"
+    },
+    {
+        "operatorName": "Urban Improvement Trust (UIT) - BHIWADI",
+        "operatorType": "Water",
+        "operatorCode": "UITBW"
+    },
+    {
+        "operatorName": "Ujjain Nagar Nigam\n- PHED",
+        "operatorType": "Water",
+        "operatorCode": "UNNPW"
+    },
+    {
+        "operatorName": "Surat Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "SMCW"
+    },
+    {
+        "operatorName": "Silvassa Municipal Council",
+        "operatorType": "Water",
+        "operatorCode": "SMCCW"
+    },
+    {
+        "operatorName": "Pune Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "PMCW"
+    },
+    {
+        "operatorName": "New Delhi Municipal Council (NDMC)",
+        "operatorType": "Water",
+        "operatorCode": "NDMCW"
+    },
+    {
+        "operatorName": "Municipal Corporation of Gurugram",
+        "operatorType": "Water",
+        "operatorCode": "MCGW"
+    },
+    {
+        "operatorName": "Municipal Corporation Ludhiana - WATER",
+        "operatorType": "Water",
+        "operatorCode": "MCLW"
+    },
+    {
+        "operatorName": "Municipal Corporation Jalandhar",
+        "operatorType": "Water",
+        "operatorCode": "MCJW"
+    },
+    {
+        "operatorName": "Indore Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "IMCW"
+    },
+    {
+        "operatorName": "Hyderabad Metropolitan Water Supply Sewerage Board",
+        "operatorType": "Water",
+        "operatorCode": "HMWSBW"
+    },
+    {
+        "operatorName": "Gwalior Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "GMCW"
+    },
+    {
+        "operatorName": "Greater Warangal Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "GWMCW"
+    },
+    {
+        "operatorName": "Delhi Jal Board",
+        "operatorType": "Water",
+        "operatorCode": "DJBW"
+    },
+    {
+        "operatorName": "Bhopal Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "BMCW"
+    },
+    {
+        "operatorName": "Bangalore Water Supply and Sewerage Board",
+        "operatorType": "Water",
+        "operatorCode": "BWSSBW"
+    },
+    {
+        "operatorName": "Jabalpur Municipal Corporation - Water",
+        "operatorType": "Water",
+        "operatorCode": "JMCW"
+    },
+    {
+        "operatorName": "Delhi Development Auth (DDA)",
+        "operatorType": "Water",
+        "operatorCode": "DDA"
+    },
+    {
+        "operatorName": "Haryana Urban Development Authority",
+        "operatorType": "Water",
+        "operatorCode": "HHU"
+    },
+    {
+        "operatorName": "Jalkal Vibhag Nagar Nigam Prayagraj",
+        "operatorType": "Water",
+        "operatorCode": "JVNNP"
+    },
+    {
+        "operatorName": "Kalyan Dombivali MNC",
+        "operatorType": "Water",
+        "operatorCode": "EKD"
+    },
+    {
+        "operatorName": "Kerala Water Authority (KWA)",
+        "operatorType": "Water",
+        "operatorCode": "KWAE"
+    },
+    {
+        "operatorName": "M P Urban\n(e-Nagarpalika)",
+        "operatorType": "Water",
+        "operatorCode": "MPESF"
+    },
+    {
+        "operatorName": "MNC  Chandigarh",
+        "operatorType": "Water",
+        "operatorCode": "MNCCHD"
+    },
+    {
+        "operatorName": "MNC  Jalandhar",
+        "operatorType": "Water",
+        "operatorCode": "MNCJ"
+    },
+    {
+        "operatorName": "MNC  Amritsar",
+        "operatorType": "Water",
+        "operatorCode": "MNCA"
+    },
+    {
+        "operatorName": "Mysuru City Corporation",
+        "operatorType": "Water",
+        "operatorCode": "MCC"
+    },
+    {
+        "operatorName": "Nagpur Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "NMNCE"
+    },
+    {
+        "operatorName": "Nanded Waghala City MNC",
+        "operatorType": "Water",
+        "operatorCode": "NWCMNC"
+    },
+    {
+        "operatorName": "Patna MNC - GCC Tax",
+        "operatorType": "Water",
+        "operatorCode": "PMNC"
+    },
+    {
+        "operatorName": "PHED - Rajasthan - Water Bill",
+        "operatorType": "Water",
+        "operatorCode": "PHDEWA"
+    },
+    {
+        "operatorName": "Port Blair Municipal Council",
+        "operatorType": "Water",
+        "operatorCode": "PBMMC"
+    },
+    {
+        "operatorName": "Punjab MNC\n/Council",
+        "operatorType": "Water",
+        "operatorCode": "PNBWA"
+    },
+    {
+        "operatorName": "Ranchi Municipal Corporation",
+        "operatorType": "Water",
+        "operatorCode": "RMCCW"
+    },
+    {
+        "operatorName": "Tumkur City Corporation-Water & UGD",
+        "operatorType": "Water",
+        "operatorCode": "TCCW"
+    },
+    {
+        "operatorName": "Airtel Digital TV",
+        "operatorType": "DTH",
+        "operatorCode": "AD"
+    },
+    {
+        "operatorName": "Dish TV",
+        "operatorType": "DTH",
+        "operatorCode": "DD"
+    },
+    {
+        "operatorName": "Big TV",
+        "operatorType": "DTH",
+        "operatorCode": "RD"
+    },
+    {
+        "operatorName": "Sun Direct",
+        "operatorType": "DTH",
+        "operatorCode": "SD"
+    },
+    {
+        "operatorName": "Tata Sky",
+        "operatorType": "DTH",
+        "operatorCode": "TD"
+    },
+    {
+        "operatorName": "Videocon D2H",
+        "operatorType": "DTH",
+        "operatorCode": "VD"
+    },
+    {
+        "operatorName": "Independent TV",
+        "operatorType": "DTH",
+        "operatorCode": "ID"
+    },
+    {
+        "operatorName": "BSES Rajdhani Power-DELHI",
+        "operatorType": "Electricity",
+        "operatorCode": "EBR"
+    },
+    {
+        "operatorName": "BSES Yamuna Power-DELHI",
+        "operatorType": "Electricity",
+        "operatorCode": "EBY"
+    }
+]
