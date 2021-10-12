@@ -248,9 +248,15 @@ const addNewWallet = async (reqBody) => {
     try {
         const wallet = new Wallet(reqBody)
         const userData = await getUserById(reqBody.userid)
+
+        reqBody.debit = reqBody.debit || 0
+        reqBody.credit = reqBody.credit || 0
+
         let walletBalance = userData.walletBalance;
+
         let newWalletBalance = parseFloat(walletBalance) - parseFloat(reqBody.debit) + parseFloat(reqBody.credit)
-        await Users.findOneAndUpdate({ _id: new ObjectId(userid) }, { walletBalance: newWalletBalance }, { new: true }).exec()
+        console.log(newWalletBalance)
+        await Users.findOneAndUpdate({ _id: new ObjectId(reqBody.userid) }, { walletBalance: newWalletBalance }, { new: true }).exec()
         return wallet.save()
     } catch (error) {
         throw error
@@ -261,14 +267,12 @@ const addNewWallet = async (reqBody) => {
 const updateWalletBalance = async (userid, amount) => {
     try {
         let user = await Users.findOne({ _id: new ObjectId(userid) }).exec()
-        let walletBalance = user.walletBalance;
-        let newWalletBalance = parseFloat(walletBalance) + parseFloat(amount)
-        await Users.updateOne({ _id: new ObjectId(userid) }, { walletBalance: newWalletBalance }, { new: true }).exec()
+        // let walletBalance = user.walletBalance;
+        // let newWalletBalance = parseFloat(walletBalance) + parseFloat(amount)
+        // await Users.updateOne({ _id: new ObjectId(userid) }, { walletBalance: newWalletBalance }, { new: true }).exec()
         user = JSON.parse(JSON.stringify(user))
         delete user.password
         delete user.__v
-        delete user.walletBalance
-        user.walletBalance = newWalletBalance
         return user
     } catch (error) {
         throw error

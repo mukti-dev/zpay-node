@@ -6,7 +6,7 @@ const { Recharge } = require('../models/recharge.models')
 const { UpgradeRequiredError, InternalServerError } = require('../_errorHandler/error')
 const { addRechargeManager } = require('./recharge.manager')
 const { narationText } = require('../services/narationText')
-const { addNewWallet } = require('./wallet.manager')
+const { addNewWallet, addNewTransaction } = require('./wallet.manager')
 
 const rechargeTransactionManager = async (reqBody) => {
     try {
@@ -18,6 +18,7 @@ const rechargeTransactionManager = async (reqBody) => {
         let userid1 = reqBody.userid1
         let optcode = reqBody.optcode
         let devSource = reqBody.devSource
+        let transactionid = reqBody.transactionid
 
         let wallet = await Wallet.aggregate([{ $match: { userid: new ObjectId(userid) } }, { $group: { _id: "$userid", creditsum: { $sum: "$credit" }, debitsum: { $sum: "$debit" } } }]).exec()
         console.log(wallet)
@@ -49,6 +50,7 @@ const rechargeTransactionManager = async (reqBody) => {
                 };
 
                 axios(config).then(async (response) => {
+                    response.data.Transid = response.data.Transid || 'N/A'
                     console.log(response.data)
                     const recharge = {
                         transactionId: response.data.Transid,
@@ -65,7 +67,7 @@ const rechargeTransactionManager = async (reqBody) => {
                     }
                     const addRecharge = await addRechargeManager(recharge)
                     if (parseFloat(amount) > 0) {
-                        const narationObj = { phone, Transid: response.data.Transid }
+                        const narationObj = { phone, Transid: transactionid }
                         let newWallet = {
                             userid: userid,
                             debit: amount,
@@ -83,7 +85,7 @@ const rechargeTransactionManager = async (reqBody) => {
                     if (response.data.Status == 'Success') {
 
                         if (parseFloat(cashback) > 0) {
-                            const narationObj = { phone, RechargeID: response.data.RechargeID, Transid: response.data.Transid }
+                            const narationObj = { phone, RechargeID: response.data.RechargeID, Transid: transactionid }
                             let newWallet = {
                                 userid: userid,
                                 credit: cashback,
@@ -91,7 +93,7 @@ const rechargeTransactionManager = async (reqBody) => {
                                 rechargeId: addRecharge._id,
                                 transactionSource: devSource,
                                 source: 'cashback',
-                                naration: narationText(narationObj, 'RT_cashback'), Transid,
+                                naration: narationText(narationObj, 'RT_cashback'),
                                 status: response.data.Status,
                                 createdBy: userid,
                                 modifiedBy: userid
@@ -170,8 +172,8 @@ const razorpayRechargeTransactionManager = async (reqBody) => {
         })
 
         await addNewWallet(addWalletbeforeRecarge)
-        await updateWalletBalance(userid, amount)
-        const recharged = await rechargeTransaction(reqBody)
+        // await updateWalletBalance(userid, amount)
+        const recharged = await rechargeTransactionManager(reqBody)
         return recharged
     } catch (error) {
         throw error
