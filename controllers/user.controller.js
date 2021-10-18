@@ -1,4 +1,5 @@
-const { saveUserData, userLogin, changePasswordManager, getAllUsers, checkedUser, toggleStatusManager } = require("../managers/user.manager")
+const { saveUserData, userLogin, changePasswordManager, getAllUsers, checkedUser, toggleStatusManager, getUserById } = require("../managers/user.manager")
+const { validateAdmin } = require("../services/auth.service")
 const { generateJwtToken } = require("../services/jwt")
 const { successResponse, failureResponse } = require("../services/responseGenerator")
 
@@ -75,5 +76,24 @@ const toggleStatus = async (req, res) => {
 
 }
 
+const getUser = async (req, res) => {
+    try {
+        let userId = req.params.userId
+        const userdata = await getUserById(userId)
+        successResponse(req, res, userdata, 'User data fetched')
+    } catch (error) {
+        failureResponse(req, res, error)
+    }
+}
 
-module.exports = { registerUser, loginUser, changePassword, allUsers, checkUser, toggleStatus }
+const authenticateAdmin = async (req, res) => {
+    try {
+        let token = req.body.token
+        const data = await validateAdmin(token)
+        successResponse(req, res, data, 'User validate')
+    } catch (error) {
+        failureResponse(req, res, error)
+    }
+}
+
+module.exports = { registerUser, loginUser, changePassword, allUsers, checkUser, toggleStatus, getUser, authenticateAdmin }

@@ -1968,5 +1968,10 @@
         "operatorName": "BSES Yamuna Power-DELHI",
         "operatorType": "Electricity",
         "operatorCode": "EBY"
+    },
+    {
+        "operatorName": "N/A",
+        "operatorType": "N/A",
+        "operatorCode": "N/A"
     }
 ]

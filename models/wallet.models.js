@@ -15,6 +15,10 @@ const WalletSchema = new mongoose.Schema({
         type: Number,
         default: 0
     },
+    restAmount: {
+        type: Number,
+        default: 0
+    },
     naration: {
         type: String,
         minlength: 1,

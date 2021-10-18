@@ -4,6 +4,7 @@ const { successResponse, failureResponse } = require('../services/responseGenera
 const razorpayConfig = require('../config/appConfig.json').RAZOR_PAY
 const zpayConfig = require('../config/appConfig.json').ZPAY
 const Razorpay = require('razorpay');
+const randomstring = require('randomstring')
 
 const { narationText } = require('../services/narationText')
 
@@ -113,6 +114,115 @@ const addMoney = async (req, res) => {
         failureResponse(req, res, error)
     }
 }
+const addWallet = async (req, res) => {
+    try {
+        console.log(req.body)
+        let userid = req.body.userselectid;
+        let credit = req.body.credit || 0;
+        let debit = req.body.debit || 0;
+        let status = 'Success';
+        let naration = req.body.naration
+        let transactionid = randomstring.generate({
+            length: 12,
+            charset: 'numeric'
+        });
+        let amount = 0
+        if (parseFloat(debit) > 0) {
+            debit = parseFloat(debit)
+        }
+        if (parseFloat(credit) > 0) {
+            credit = parseFloat(credit)
+        }
+        amount = credit + debit
+
+        let newTransaction = {
+            userId: userid,
+            amount: amount,
+            transactionid: transactionid,
+            status: status,
+            createdBy: userid,
+            modifiedBy: userid,
+        }
+
+        const addTransaction = await addNewTransaction(newTransaction)
+
+        let wallet = {
+            userid: userid,
+            credit: credit,
+            debit: debit,
+            status: status,
+            transactionid: addTransaction._id,
+            transactionSource: 'web',
+            source: 'web_admin',
+            naration: naration + '(TxnId: <txn_id>)',
+            createdBy: userid,
+            modifiedBy: userid
+        }
+        const addWallet = await addNewWallet(wallet)
+        const updateWallet = await updateWalletBalance(userid, amount)
+        successResponse(req, res, updateWallet, 'Wallet updated')
+    } catch (error) {
+        failureResponse(req, res, error)
+    }
+}
+const addWalletByAdmin = async (req, res) => {
+    try {
+
+        let userid = req.body.userselectid;
+        let credit = 0;
+        let debit = 0;
+        let naration
+        if (req.body.type == 'credit') {
+            credit = req.body.amount
+            naration = narationText(null, 'admin_wallet_credit')
+        }
+        if (req.body.type == 'debit') {
+            debit = req.body.amount
+            naration = narationText(null, 'admin_wallet_debit')
+        }
+        let status = 'Success';
+        let transactionid = randomstring.generate({
+            length: 12,
+            charset: 'numeric'
+        });
+        let amount = 0
+        if (parseFloat(debit) > 0) {
+            debit = parseFloat(debit)
+        }
+        if (parseFloat(credit) > 0) {
+            credit = parseFloat(credit)
+        }
+        amount = credit + debit
+
+        let newTransaction = {
+            userId: userid,
+            amount: amount,
+            transactionid: transactionid,
+            status: status,
+            createdBy: req.user._id,
+            modifiedBy: req.user._id,
+        }
+        const addTransaction = await addNewTransaction(newTransaction)
+
+        let wallet = {
+            userid: userid,
+            credit: credit,
+            debit: debit,
+            status: status,
+            transactionid: addTransaction._id,
+            transactionSource: 'web',
+            source: 'web_admin',
+            naration: naration,
+            createdBy: req.user._id,
+            modifiedBy: req.user._id
+        }
+        const addWallet = await addNewWallet(wallet)
+        const updateWallet = await updateWalletBalance(userid, amount)
+        successResponse(req, res, updateWallet, 'User Wallet updated')
+    } catch (error) {
+        failureResponse(req, res, error)
+    }
+}
 
 const rechargeTransaction = async (req, res) => {
     try {
@@ -159,4 +269,4 @@ const razorpayRechargeTransaction = async (req, res) => {
     }
 }
 
-module.exports = { walletHistory, walletDetail, allWallet, todayWallet, createOrder, addMoney, rechargeTransaction, razorpayRechargeTransaction }
+module.exports = { walletHistory, walletDetail, allWallet, todayWallet, createOrder, addMoney, rechargeTransaction, razorpayRechargeTransaction, addWallet, addWalletByAdmin }

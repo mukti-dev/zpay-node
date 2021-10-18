@@ -1,10 +1,14 @@
 const mongoose = require('mongoose');
 
 const OperatorSchema = new mongoose.Schema({
-    name: {
+    operatorName: {
         type: String,
         required: true,
-        minlength: 1,
+        trim: true
+    },
+    operatorType: {
+        type: String,
+        required: true,
         trim: true
     },
     operatorCode: {
@@ -15,21 +19,20 @@ const OperatorSchema = new mongoose.Schema({
     },
     cashbackPercentageForZpay: {
         type: String,
-        // required: true,
-        // minlength: 1,
+        required: true,
         trim: true
     },
     cashbackPercentageForCustomer: {
         type: String,
-        // required: true,
-        // minlength: 1,
+        required: true,
         trim: true
     },
     status: {
         type: String,
         required: true,
         minlength: 1,
-        trim: true
+        trim: true,
+        default: 'Active'
     },
 
 })

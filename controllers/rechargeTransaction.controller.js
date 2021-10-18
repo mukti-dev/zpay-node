@@ -9,6 +9,7 @@ const rechargeTransaction = async (req, res) => {
         data.phone = req.body.phone;
         data.amount = req.body.amount;
         data.cashback = req.body.cashback;
+        data.transactionid = req.body.transactionid;
         data.tokenid = zpayConfig.tokenId;
         data.userid1 = zpayConfig.userId;
         data.optcode = req.body.optcode;
@@ -24,7 +25,6 @@ const rechargeTransaction = async (req, res) => {
 
 const razorpayRechargeTransaction = async (req, res) => {
     try {
-
         let data = {}
         data.userid = req.body.userid;
         data.name = req.body.name;
@@ -49,6 +49,7 @@ const updatePendingRecharge = async (req, res) => {
 
     try {
         let rechargeStatusData = req.query
+        console.log(rechargeStatusData)
         const update = await updatePendingRechargeManager(rechargeStatusData)
         successResponse(req, res, update, 'Successful')
     } catch (error) {

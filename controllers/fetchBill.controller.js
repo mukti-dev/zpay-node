@@ -8,7 +8,7 @@ const perPaidOperatorCheck = (req, res) => {
         let apikey = MPLAN.API_KEY
         let tel = req.query.phone;
         let str = "";
-        console.log(tel)
+        console.log(`operatorcheck.mplan.in` + '/api/dthoperatorinfo.php?apikey=' + apikey + '&tel=' + tel)
 
         let options = {
             host: 'operatorcheck.mplan.in',
@@ -83,7 +83,7 @@ const perpaidOffer = (req, res) => {
         let tel = req.query.phone;
         let operator = req.query.operator;
         let str = "";
-
+        console.log(`mplan.in/api/plans.php?apikey=' + ${apikey} + '&&offer=roffer&tel=' + ${tel} + '&operator=' + ${operator}`)
         let options = {
             host: 'mplan.in',
             port: 443,

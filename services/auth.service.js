@@ -18,8 +18,8 @@ const authentication = async (req, res, next) => {
         if (user.length > 0) {
             user = JSON.parse(JSON.stringify(user))
             if (user[0].deviceType == decoded.data.deviceType && user[0].deviceToken == decoded.data.deviceToken) {
-                delete user.password
-                req.user = user
+                delete user[0].password
+                req.user = user[0]
                 next()
             } else {
                 throw new ForbiddenError("Logged in at another device")
@@ -65,4 +65,15 @@ const adminAuthentication = async (req, res, next) => {
         failureResponse(req, res, err)
     }
 }
-module.exports = { authentication, customerAuthentication, adminAuthentication }
+
+const validateAdmin = async (token) => {
+    const decoded = jwt.verify(token, jwtSecret);
+    const id = decoded.data._id
+    let user = await User.find({ $and: [{ _id: new ObjectId(id) }, { userType: 'admin' }, { status: "Active" }] }).exec()
+    if (user.length > 0) {
+        return true
+    } else {
+        throw new UnauthorizedError("Unauthicated")
+    }
+}
+module.exports = { authentication, customerAuthentication, adminAuthentication, validateAdmin }

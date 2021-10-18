@@ -76,7 +76,8 @@ const gettodayRechargeData = async (createdAt, reqBody) => {
                 $lookup: {
                     from: 'transactions',
                     localField: 'userid',
-
+                    foreignField: 'userId',
+                    as: 'txnDetail'
                 }
             }
         ]

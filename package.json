@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "debug": "node --inspect app.js"
   },
   "author": "Syscodetech",
   "license": "ISC",
@@ -21,6 +22,7 @@
     "moment": "^2.29.1",
     "mongoose": "^6.0.8",
     "morgan": "^1.10.0",
+    "randomstring": "^1.2.1",
     "razorpay": "^2.0.7",
     "uuid": "^8.3.2"
   },

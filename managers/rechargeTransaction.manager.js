@@ -52,6 +52,7 @@ const rechargeTransactionManager = async (reqBody) => {
 
                 axios(config).then(async (response) => {
                     response.data.Transid = response.data.Transid || 'N/A'
+                    response.data.Errormsg = response.data.Errormsg || 'N/A'
                     console.log(response.data)
                     const recharge = {
                         transactionId: response.data.Transid,
@@ -62,6 +63,7 @@ const rechargeTransactionManager = async (reqBody) => {
                         amount: amount,
                         cashback: cashback,
                         operator: optcode,
+                        errormessage: response.data.Errormsg,
                         status: response.data.Status,
                         createdBy: userid,
                         modifiedBy: userid,
@@ -84,7 +86,6 @@ const rechargeTransactionManager = async (reqBody) => {
                         await addNewWallet(newWallet)
                     }
                     if (response.data.Status == 'Success') {
-
                         if (parseFloat(cashback) > 0) {
                             const narationObj = { phone, RechargeID: response.data.RechargeID, Transid: transactionid }
                             let newWallet = {
@@ -106,7 +107,6 @@ const rechargeTransactionManager = async (reqBody) => {
 
                     } else if (response.data.Status == 'Failed') {
                         const narationObj = { phone }
-
                         let newWallet = {
                             userid: userid,
                             credit: amount,
@@ -147,10 +147,7 @@ const razorpayRechargeTransactionManager = async (reqBody) => {
         let userid = reqBody.userid
         let amount = reqBody.amount
         let transactionid = reqBody.transactionid
-        let optcode = reqBody.optcode
         let devSource = reqBody.devSource
-        console.log(reqBody)
-
 
         let newTransaction = {
             userId: userid,
@@ -207,6 +204,7 @@ const updatePendingRechargeManager = async (reqBody) => {
                 modifiedBy: userid
             };
             await addNewWallet(newWallet)
+            await Recharge.updateOne({ rechargeId: reqBody.rchId }, { status: reqBody.Status })
         }
         const userData = await getUserById(userid)
         return userData
@@ -227,12 +225,13 @@ const updatePendingRechargeManager = async (reqBody) => {
             modifiedBy: userid
         };
         await addNewWallet(newWallet)
-        reject(new InternalServerError(`Transaction failed due to ${response.data.Errormsg} and deducted amount is refunded`))
+        await Recharge.updateOne({ rechargeId: reqBody.rchId }, { status: reqBody.Status })
+        throw new InternalServerError(`Transaction failed due to ${response.data.Errormsg} and deducted amount is refunded`)
     } else {
-        reject(new InternalServerError('Unknown response from zpay client'))
+        throw new InternalServerError('Unknown response from zpay client')
     }
 
-    await Recharge.updateOne({ rechargeId: reqBody.rchId }, { status: reqBody.Status })
+
 
 }
 

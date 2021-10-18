@@ -1,6 +1,6 @@
 const { failureResponse, successResponse } = require("../services/responseGenerator")
-
-const { addOperatorManager, updateOperatorManager, getOperatorManager, getAllOperatorManager, getOperatorCashback } = require('../managers/operator.manager')
+const operatorConfig = require('../config/operatorConfig.json')
+const { addOperatorManager, updateOperatorManager, getOperatorManager, getAllOperatorManager, getOperatorCashback, updateOperatorManagerNew } = require('../managers/operator.manager')
 const addOperator = async (req, res) => {
     try {
         const add = await addOperatorManager(req.body)
@@ -48,4 +48,26 @@ const getCashBack = async (req, res) => {
     }
 }
 
-module.exports = { addOperator, editOperator, getOperator, getAllOperator, getCashBack }
+const updateOperator = async (req, res) => {
+    try {
+        let opData
+        let operatorData = operatorConfig.find(({ operatorCode }) => operatorCode === req.body.operatorCode);
+        let operatorObj = {
+            operatorName: operatorData.operatorName,
+            operatorType: operatorData.operatorType,
+            operatorCode: req.body.operatorCode,
+            cashbackPercentageForZpay: req.body.cashbackPercentageForZpay,
+            cashbackPercentageForCustomer: req.body.cashbackPercentageForCustomer,
+            status: 'Active'
+        }
+        if ((!req.body.cashbackPercentageForZpay || (req.body.cashbackPercentageForZpay).trim() == "") && (!req.body.cashbackPercentageForCustomer || (req.body.cashbackPercentageForCustomer).trim() == "")) {
+            operatorObj.status = 'InActive'
+        }
+        opData = await updateOperatorManagerNew(operatorObj)
+        successResponse(req, res, opData, 'Operator updated')
+    } catch (error) {
+        failureResponse(req, res, error)
+    }
+}
+
+module.exports = { addOperator, editOperator, getOperator, getAllOperator, getCashBack, updateOperator }

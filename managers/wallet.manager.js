@@ -2,7 +2,6 @@ const { Wallet } = require('../models/wallet.models')
 const { ObjectId } = require('mongoose').Types
 const Transaction = require('../models/transaction.models')
 const Users = require('../models/users.models')
-const { Recharge } = require('../models/recharge.models')
 const axios = require('axios')
 const { UpgradeRequiredError, InternalServerError } = require('../_errorHandler/error')
 const operatorConfig = require('../config/operatorConfig.json')
@@ -13,7 +12,6 @@ const { narationText } = require('../services/narationText')
 const uuidv4 = require('uuid').v4
 
 const moment = require('moment')
-
 
 const getWalletData = async (userId, reqBody) => {
     try {
@@ -246,9 +244,8 @@ const addNewTransaction = async (reqBody) => {
 
 const addNewWallet = async (reqBody) => {
     try {
-        const wallet = new Wallet(reqBody)
+        console.log(reqBody.userid)
         const userData = await getUserById(reqBody.userid)
-
         reqBody.debit = reqBody.debit || 0
         reqBody.credit = reqBody.credit || 0
 
@@ -257,6 +254,9 @@ const addNewWallet = async (reqBody) => {
         let newWalletBalance = parseFloat(walletBalance) - parseFloat(reqBody.debit) + parseFloat(reqBody.credit)
         console.log(newWalletBalance)
         await Users.findOneAndUpdate({ _id: new ObjectId(reqBody.userid) }, { walletBalance: newWalletBalance }, { new: true }).exec()
+        reqBody.restAmount = newWalletBalance
+        const wallet = new Wallet(reqBody)
+        console.log(wallet)
         return wallet.save()
     } catch (error) {
         throw error

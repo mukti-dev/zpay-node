@@ -4,6 +4,7 @@ const NotFoundError = require('../_errorHandler/404')
 const addOperatorManager = async (reqBody) => {
     try {
         const operator = new Operator(reqBody)
+        console.log(operator)
         const result = await operator.save()
         return result
     } catch (error) {
@@ -13,8 +14,13 @@ const addOperatorManager = async (reqBody) => {
 
 const updateOperatorManager = async (id, reqBody) => {
     try {
-        const result = await Operator.updateOne({ _id: new ObjectId(id) }, { reqBody }).exec()
-        return true
+        console.log(id)
+        const result = await Operator.updateOne({ _id: new ObjectId(id) }, { $set: reqBody }, { new: true }).exec()
+        console.log(result)
+        return result
+
+
+
     } catch (error) {
         throw error
     }
@@ -65,4 +71,14 @@ const getOperatorCashback = async (operatorCode) => {
     }
 }
 
-module.exports = { addOperatorManager, updateOperatorManager, getOperatorManager, getAllOperatorManager, getOperatorCashback }
+const updateOperatorManagerNew = async (reqBody) => {
+    try {
+        await Operator.updateOne({ operatorCode: reqBody.operatorCode }, { $set: reqBody }, { new: true, upsert: true }).exec()
+        const result = await Operator.findOne({ operatorCode: reqBody.operatorCode }).exec()
+        return result
+    } catch (error) {
+        throw error
+    }
+}
+
+module.exports = { addOperatorManager, updateOperatorManager, getOperatorManager, getAllOperatorManager, getOperatorCashback, updateOperatorManagerNew }

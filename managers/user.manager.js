@@ -6,6 +6,7 @@ const NotFoundError = require('../_errorHandler/404')
 const { Login } = require('../models/login.models')
 const { Wallet } = require('../models/wallet.models')
 const { ObjectId } = require('mongoose').Types
+const moment = require('moment')
 
 const saveUserData = async (reqBody) => {
     try {
@@ -41,10 +42,11 @@ const userLogin = async (reqBody, usertype) => {
         usertype = usertype || false
         let query = { $and: [{ $or: [{ email: reqBody.username }, { phone: reqBody.username }] }, { status: "Active" }] }
         if (usertype) {
-            query = { $and: [{ $or: [{ email: reqBody.username }, { userType: "admin" }, { phone: reqBody.username }] }, { status: "Active" }] }
+            query = { $and: [{ $or: [{ email: reqBody.username }, { phone: reqBody.username }] }, { userType: "admin" }, { status: "Active" }] }
         }
+        console.log(JSON.stringify(query))
 
-        const user = await Users.findOne().exec()
+        const user = await Users.findOne(query).exec()
         if (user && user !== null) {
             let isPwMatch = await decryptText(reqBody.password, user.password)
             if (!isPwMatch) {
@@ -106,7 +108,7 @@ const changePasswordManager = async (reqBody) => {
 
 const getAllUsers = async () => {
     try {
-        return await Users.find({}).exec()
+        return await Users.find({ userType: "customer" }).exec()
     } catch (error) {
         throw error
     }
@@ -153,7 +155,15 @@ const getUserById = async (userId) => {
     try {
         const user = await Users.find({ _id: new ObjectId(userId) }).exec()
         if (user.length > 0) {
-            return user[0]
+            let userdata = user[0]
+            userdata = JSON.parse(JSON.stringify(userdata))
+            delete userdata.password
+            delete userdata.__v
+            let date = moment(userdata.createdAt).format('DD-MM-YYYY hh:mm A')
+            delete userdata.createdAt
+            userdata.createdAt = date
+            console.log(userdata)
+            return userdata
         } else {
             throw new NotFoundError('No record found with this Id')
         }
