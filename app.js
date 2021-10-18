@@ -26,13 +26,13 @@ const privateKey = fs.readFileSync('./utils/privkey.pem');
 const certificate = fs.readFileSync('./utils/fullchain.pem');
 
 
-// https.createServer({
-//     key: privateKey,
-//     cert: certificate
-// }, app).listen(PORT, () => {
-//     console.log(`Zpay(Production) is running at PORT: ${PORT} `)
-// }); // work if the application is running at server
+https.createServer({
+    key: privateKey,
+    cert: certificate
+}, app).listen(PORT, () => {
+    console.log(`Zpay(Production) is running at PORT: ${PORT} `)
+}); // work if the application is running at server
 
-app.listen(PORT, () => {
-    console.log(`Zpay(Development) is running at PORT: ${PORT}`)
-}) // works if application is running in localhost
+// app.listen(PORT, () => {
+//     console.log(`Zpay(Development) is running at PORT: ${PORT}`)
+// }) // works if application is running in localhost
