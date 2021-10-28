@@ -10,5 +10,8 @@
     "ZPAY": {
         "tokenId": "viORVHvmHn/oYjQhZ5OM6A==",
         "userId": "help.dpay@gmail.com"
+    },
+    "OTP": {
+        "url": "http://sms.staticking.com/index.php/smsapi/httpapi/?secret=Ksfe3S3DtUrigk8X2mOh&sender=CHHATW&tempid=1207163333983771122&receiver=<mobile>&route=TA&msgtype=1&sms=Chhatwal%20Tours%20and%20Travels,%20user%20gikb%20has%20entered%20the%20panel%20<otp>."
     }
 }

@@ -66,6 +66,10 @@ const UsersSchema = new mongoose.Schema({
     userType: {
         type: String,
         default: "customer"
+    },
+    isActive: {
+        type: String,
+        default: true
     }
 
 })

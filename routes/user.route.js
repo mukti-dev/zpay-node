@@ -1,7 +1,11 @@
 const express = require('express')
 const { registerUser, loginUser, changePassword, allUsers, checkUser, toggleStatus, getUser, authenticateAdmin } = require('../controllers/user.controller')
 const { authentication } = require('../services/auth.service')
+
+const otpRoute = require('./otp.route')
 const router = express.Router()
+
+router.use('/otp', otpRoute)
 
 router.post('/register', registerUser)
 router.post('/login', loginUser)

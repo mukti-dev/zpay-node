@@ -18,7 +18,8 @@ const saveUserData = async (reqBody) => {
             location: reqBody.location,
             deviceType: reqBody.deviceType,
             deviceToken: reqBody.deviceToken,
-            macAddresss: reqBody.macAddress
+            macAddresss: reqBody.macAddress,
+            createdAt: new Date()
         })
         await loginData.save()
         const wallet = new Wallet({
@@ -26,7 +27,9 @@ const saveUserData = async (reqBody) => {
             naration: "User registration",
             status: "Success",
             createdBy: ObjectId(userData._id),
-            modifiedBy: ObjectId(userData._id)
+            modifiedBy: ObjectId(userData._id),
+            createdAt: new Date(),
+            modifiedAt: new Date()
         })
         await wallet.save()
 
@@ -58,11 +61,11 @@ const userLogin = async (reqBody, usertype) => {
                     location: reqBody.location,
                     deviceType: reqBody.deviceType,
                     deviceToken: reqBody.deviceToken,
-                    macAddresss: reqBody.macAddress
+                    macAddresss: reqBody.macAddress,
+                    logintime: new Date()
                 })
 
-                console.log(loginData)
-                await Users.updateOne({ _id: new ObjectId(user._id) }, { deviceType: reqBody.deviceType, deviceToken: reqBody.deviceToken })
+                await Users.updateOne({ _id: new ObjectId(user._id) }, { deviceType: reqBody.deviceType, deviceToken: reqBody.deviceToken, updatedBy: ObjectId(user._id), updatedAt: new Date() })
                 await loginData.save()
                 let userData = JSON.parse(JSON.stringify(user))
                 userData.deviceToken = reqBody.deviceToken
